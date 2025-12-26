@@ -1,73 +1,47 @@
-# Welcome to your Lovable project
+SarcasmAI – Sarcasm Detection Web Application
 
-## Project info
+SarcasmAI is a web-based application designed to analyze textual input and identify sarcastic intent using confidence-based classification. The project focuses on improving human–computer understanding of implicit sentiment, especially sarcasm, which is often difficult to detect using traditional sentiment analysis methods.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The system processes user-entered text and classifies it into three meaningful categories based on confidence scores: Clearly Sarcastic, Non-Sarcastic, and Ambiguous. This layered interpretation provides deeper insight into how confidently sarcasm is expressed, rather than limiting output to a simple binary decision.
 
-## How can I edit this code?
+Key Features
 
-There are several ways of editing your application.
+Real-time sarcasm detection through an interactive web interface
 
-**Use Lovable**
+Confidence-based classification instead of yes/no output
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Three-level interpretation:
 
-Changes made via Lovable will be committed automatically to this repo.
+70–100% → Clearly Sarcastic (with explanation)
 
-**Use your preferred IDE**
+40–69% → Non-Sarcastic
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Below 40% → Ambiguous / unclear intent
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Clean, responsive, and user-friendly UI
 
-Follow these steps:
+Research-oriented design aligned with NLP and deep learning concepts
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Technology Stack
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Frontend: React, TypeScript, Vite
 
-# Step 3: Install the necessary dependencies.
-npm i
+Styling: CSS / modern UI components
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Deployment: Vercel
 
-**Edit a file directly in GitHub**
+Concepts Used: Natural Language Processing (NLP), Confidence Scoring, Sarcasm Analysis
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Project Objective
 
-**Use GitHub Codespaces**
+The goal of this project is to demonstrate how sarcasm can be identified more effectively by incorporating confidence scores and interpretability, making the system suitable for academic research, sentiment analysis studies, and human-AI interaction applications.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Live Demo
 
-## What technologies are used for this project?
+🔗 Live Website: https://sarcasm-detector-ai.vercel.app
 
-This project is built with:
+Author
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Yug Bhatnagar
+B.Tech Computer Science
+Project Domain: NLP | Deep Learning | Web Development
