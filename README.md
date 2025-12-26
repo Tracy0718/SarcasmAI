@@ -24,7 +24,7 @@ Research-oriented design aligned with NLP and deep learning concepts
 
 Technology Stack
 
-Frontend: React, TypeScript, Vite
+Frontend: Python, React, TypeScript, Vite
 
 Styling: CSS / modern UI components
 
